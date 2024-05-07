@@ -2,56 +2,56 @@ import http from '@/utils/http'
 
 // 类型
 export function serviceGetBillType() {
-  return http.get('/billType')
+  return http.get('/capitalFlowType')
 }
 
 export function serviceDeleteBillType(id: string) {
-  return http.delete(`/billType/${id}`, {
+  return http.delete(`/capitalFlowType/${id}`, {
     headers: { successAlert: 'true' },
   })
 }
 
 export function serviceUpdateBillType(id: string, data: object) {
-  return http.put(`/billType/${id}`, data, {
+  return http.put(`/capitalFlowType/${id}`, data, {
     headers: { successAlert: 'true' },
   })
 }
 
 export function serviceCreateBillType(data: object) {
-  return http.post('/billType', data, {
+  return http.post('/capitalFlowType', data, {
     headers: { successAlert: 'true' },
   })
 }
 
 // 资金流动
 export function serviceGetBill(params?: object) {
-  return http.get('/bill', { params })
+  return http.get('/capitalFlow', { params })
 }
 
 export function serviceDeleteBill(id: string) {
-  return http.delete(`/bill/${id}`, {
+  return http.delete(`/capitalFlow/${id}`, {
     headers: { successAlert: 'true' },
   })
 }
 
 export function serviceUpdateBill(id: string, data: object) {
-  return http.put(`/bill/${id}`, data, {
+  return http.put(`/capitalFlow/${id}`, data, {
     headers: { successAlert: 'true' },
   })
 }
 
 export function serviceCreateBill(data: object) {
-  return http.post('/bill', data)
+  return http.post('/capitalFlow', data)
 }
 
 export function serviceGetBillAmount(params?: object) {
-  return http.get('/bill/amount/statistics', { params })
+  return http.get('/capitalFlow/amount/statistics', { params })
 }
 
 export function serviceGetBillAmountGroup(params: object) {
-  return http.get('/bill/amount/group', { params })
+  return http.get('/capitalFlow/amount/group', { params })
 }
 
 export function serviceGetAmountById(id: string) {
-  return http.get(`/bill/${id}`)
+  return http.get(`/capitalFlow/${id}`)
 }
