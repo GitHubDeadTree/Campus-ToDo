@@ -52,7 +52,7 @@ export function MainRoutes() {
               element={HomeIndex}
               meta={{
                 requiresAuth: true,
-                title: '后台首页',
+                title: '信息总览',
               }}
             />
           ),

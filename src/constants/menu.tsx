@@ -15,7 +15,7 @@ export const HOME_SIDER_MENU_LIST = [
   {
     path: '/home/index',
     icon: <HomeOutlined />,
-    name: '后台首页',
+    name: '信息总览',
   },
   {
     path: '/home/reminder',
@@ -41,7 +41,7 @@ export const HOME_SIDER_MENU_LIST = [
   {
     path: '',
     icon: <BarChartOutlined />,
-    name: '我的账单',
+    name: '财务管理',
     children: [
       {
         path: '/home/bill',
@@ -56,7 +56,7 @@ export const HOME_SIDER_MENU_LIST = [
   {
     path: '',
     icon: <FormOutlined />,
-    name: '我的备忘',
+    name: '我的备忘录',
     children: [
       {
         path: '/home/memorandum',
