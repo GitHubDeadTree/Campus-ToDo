@@ -15,7 +15,7 @@ export const HOME_SIDER_MENU_LIST = [
   {
     path: '/home/index',
     icon: <HomeOutlined />,
-    name: '后台首页',
+    name: '信息总览',
   },
   {
     path: '/home/reminder',
