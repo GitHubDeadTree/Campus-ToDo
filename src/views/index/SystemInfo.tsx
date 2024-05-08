@@ -55,7 +55,7 @@ const System: React.FC<Props> = ({ systemInfo }) => {
 
   return (
     <Row gutter={{ xs: 8, sm: 16, md: 24}} className="system-data">
-      <Col xl={8} lg={12} md={12} sm={24} xs={24}>
+      {/* <Col xl={8} lg={12} md={12} sm={24} xs={24}>
         <Card
           title="系统参数"
           hoverable
@@ -82,8 +82,8 @@ const System: React.FC<Props> = ({ systemInfo }) => {
             {curSystemTime}
           </p>
         </Card>
-      </Col>
-      <Col xl={8} lg={12} md={12} sm={24} xs={24}>
+      </Col> */}
+      <Col xl={80} lg={120} md={120} sm={24} xs={24}>
         <Card
           title="我的消息"
           hoverable
@@ -100,7 +100,7 @@ const System: React.FC<Props> = ({ systemInfo }) => {
           )}
         </Card>
       </Col>
-      <Col xl={8} lg={12} md={12} sm={24} xs={24}>
+      {/* <Col xl={8} lg={12} md={12} sm={24} xs={24}>
         <Card
           title={`内存使用率(${bytes(systemInfo.totalmem)})`}
           hoverable
@@ -114,7 +114,7 @@ const System: React.FC<Props> = ({ systemInfo }) => {
           />
           <div className="surplus">剩余{bytes(systemInfo.freemem)}</div>
         </Card>
-      </Col>
+      </Col> */}
     </Row>
   )
 }
