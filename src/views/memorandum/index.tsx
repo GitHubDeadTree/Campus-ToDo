@@ -1,5 +1,5 @@
 /**
- * 我的备忘
+ * 我的备忘录
  */
 import React, { useState, useEffect } from 'react'
 import './style.scss'
