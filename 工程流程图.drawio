@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T00:21:34.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1IrsX8sBvj_hhCggRwFq" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T00:22:48.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zB_anqIlWERdYNDqxK-O" version="24.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="921" dy="-423" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -540,7 +540,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXpcBFsJsnmmD262SPky-10" value="代办id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sXpcBFsJsnmmD262SPky-7">
+        <mxCell id="sXpcBFsJsnmmD262SPky-10" value="删除请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sXpcBFsJsnmmD262SPky-7">
           <mxGeometry x="0.2215" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -551,17 +551,36 @@
         <mxCell id="sXpcBFsJsnmmD262SPky-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXpcBFsJsnmmD262SPky-2" target="sXpcBFsJsnmmD262SPky-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sXpcBFsJsnmmD262SPky-22" value="代办信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sXpcBFsJsnmmD262SPky-12">
+          <mxGeometry x="-0.4338" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sXpcBFsJsnmmD262SPky-2" value="1.1新增&lt;span style=&quot;background-color: initial;&quot;&gt;今日代办&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1829" width="96" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="sXpcBFsJsnmmD262SPky-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXpcBFsJsnmmD262SPky-3" target="sXpcBFsJsnmmD262SPky-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="1998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXpcBFsJsnmmD262SPky-24" value="SQL语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sXpcBFsJsnmmD262SPky-14">
+          <mxGeometry x="-0.6166" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sXpcBFsJsnmmD262SPky-3" value="1.3删除代办" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1969" width="96" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="sXpcBFsJsnmmD262SPky-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXpcBFsJsnmmD262SPky-4" target="sXpcBFsJsnmmD262SPky-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXpcBFsJsnmmD262SPky-23" value="代办信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sXpcBFsJsnmmD262SPky-13">
+          <mxGeometry x="-0.1287" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sXpcBFsJsnmmD262SPky-4" value="1.2修改今日代办" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1899" width="96" height="57.5" as="geometry" />
